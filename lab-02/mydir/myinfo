@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+read -p "Enter your logname" logname
+ls -l /home/"$logname"
+cp /home/"$logname" /temp
+ps -u "$logname"

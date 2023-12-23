@@ -1,0 +1,8 @@
+#! /usr/bin/bash
+if [ -f "$1" ]; then
+    echo "It is a file."
+elif [ -d "$1" ]; then
+    echo "It is a directory."
+else
+    echo "It is neither a file nor a directory, or the path does not exist."
+fi
