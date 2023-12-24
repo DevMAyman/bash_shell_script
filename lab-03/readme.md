@@ -1,31 +1,31 @@
 #[LAB 3]<br />
 ------------------------------
 ##Q1 - <br />
-<img src="./pics/01.png" height="500" width="800" />
-<img src="./pics/01-01.png" height="500" width="800" />
+<img src="./pics/01.png" />
+<img src="./pics/01-01.png"  />
 --------------------------------------------------------
 ##Q2 - <br />
-<img src="./pics/02.png" height="500" width="800" />
+<img src="./pics/02.png"  />
 ---------------------------------------------------------
 ##Q3 - <br />
-<img src="./pics/03.png" height="500" width="800" />
+<img src="./pics/03.png"  />
 ---------------------------------------------------------
 ##Q4 - <br />
-<img src="./pics/04.png" height="500" width="800" />
+<img src="./pics/04.png"  />
 -----------------------------------------------------------
 ##Q5 - <br />
-<img src="./pics/05.png" height="500" width="800" />
-<img src="./pics/05-02.png" height="500" width="800" />
+<img src="./pics/05.png"  />
+<img src="./pics/05-02.png"  />
 ----------------------------------------------------------
 ##Q7 - <br />
 error
 ----------------------------------------------------------
 ##Q8 - <br />
-<img src="./pics/08.png" height="500" width="800" />
-<img src="./pics/08-01.png" height="500" width="800" />
+<img src="./pics/08.png" />
+<img src="./pics/08-01.png"  />
 ----------------------------------------------------------
 ##Q9 - <br />
-<img src="./pics/09.png" height="500" width="800" />
+<img src="./pics/09.png"  />
 -----------------------------------------------------
 ##Q10 - <br />
 <img src="./pics/10.png" height="500" width="800" />
