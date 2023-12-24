@@ -1,0 +1,10 @@
+#! /usr/bin/bash
+previous_no_lines=$(wc -l /var/mail/moayman)
+while true;do
+no_lines=$(wc -l /var/mail/moayman)
+if [[ $previous_no_lines != no_lines ]];then
+echo "new mail"
+fi
+previous_no_lines=$(wc -l /var/mail/moayman)
+sleep 10
+done

@@ -1,0 +1,16 @@
+#! /usr/bin/bash
+flag=1
+count=0
+sum=0
+while [[ $flag == 1 ]]
+do
+((count=$count+1))
+read -p "Enter number $count" number
+((sum=$sum+$number))
+echo "Do you want add a number"
+echo "1) Yes"
+echo "2) No"
+read  flag
+done
+result=$((sum/count))
+echo "$result"

@@ -1,0 +1,15 @@
+#! /usr/bin/bash
+select var in ls "ls -a" exit
+do
+case $var in
+ls)
+ls
+;;
+"ls -a")
+ls -a
+;;
+exit)
+break
+;;
+esac
+done

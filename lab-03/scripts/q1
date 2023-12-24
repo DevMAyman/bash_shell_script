@@ -1,0 +1,17 @@
+#! /usr/bin/bash
+shopt -s extglob
+read -p "Enter Char" var
+case $var in
+[a-z] )
+echo "Lower case"
+;;
+[A-Z] )
+echo "Upper case"
+;;
+[0-9] )
+echo "number"
+;;
+*)
+echo "other"
+;;
+esac

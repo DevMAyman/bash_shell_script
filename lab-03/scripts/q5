@@ -1,0 +1,7 @@
+#! /usr/bin/bash
+arr_users=$(cut -d: -f1 /etc/passwd)
+mailbody=$(< ./mail)
+for user in $arr_users
+do
+echo $mailbody | mail -s "Imprtant" "$user"
+done

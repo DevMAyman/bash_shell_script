@@ -1,0 +1,7 @@
+#! /usr/bin/bash
+read -p "Please enter size of array: " size
+for ((i=0; i<$size;i++))
+do
+read -p "Enter element $i: " arr[$i]
+done
+echo ${arr[@]}

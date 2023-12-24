@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+mkdir  ~/backup
+
+for file in `sudo ls -R ~` /*
+do
+  if [[ -f $file ]]
+    then
+      cp $file ~/backup/$file  2> ~/myerror
+  fi
+done
